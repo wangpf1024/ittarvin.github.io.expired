@@ -21,17 +21,21 @@
 title: Arvin's WiKi
 email: wangpfitta@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-  “若无必要，勿增实体。”（Non sunt multiplicanda entia sine necessitate）
+  “若无必要，勿增实体”（Non sunt multiplicanda entia sine necessitate）
 #  "探索者都需要清楚三件事：现在的位置，目标，以及通向目标的道路。".
 #  “世界上只有两样东西是值得我们深深景仰的，一个是我们头上灿烂的星空，一个是我们内心崇高的道德法则。”.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  ittarvin
-
 # Build settings
+#theme: jekyll-theme-simplex
 theme: minima
-markdown: kramdown
+#theme: just-the-docs
+#theme: jekyll-agency
+#theme: monophase
+#theme: jekyll-theme-chirpy
+#markdown: kramdown
 kramdown:
   #input: kramdown-parser-gfm
   math_engine: mathjax
@@ -39,11 +43,12 @@ kramdown:
     - autolink
     - footnotes
     - smart
-  gfm_quirks: [paragraph_end]
+  #gfm_quirks: [paragraph_end]
   syntax_highlighter: coderay
   syntax_highlighter_opts:
    # line_numbers: nil
     bold_every: 10
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -56,6 +61,9 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
+#  - jekyll-remote-theme
+
+# remote_theme: ngzhio/jekyll-theme-hamilton
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -76,3 +84,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#  The built-in skins include daylight, midnight, sunrise, and sunset
+# skin: sunrise
+# paginate: 5
+# permalink: pretty
