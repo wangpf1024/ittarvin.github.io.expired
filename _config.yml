@@ -40,7 +40,8 @@ gist:
   noscript: false
 markdown: kramdown
 kramdown:
-  input: GFM
+  #input: GFM
+  math_engine: mathjax
   extensions:
     - autolink
     - footnotes
@@ -49,11 +50,11 @@ kramdown:
   #syntax_highlighter: rouge
   #coderay:
     #coderay_line_numbers: nil
-  #gfm_quirks: [paragraph_end]
+  gfm_quirks: [paragraph_end]
   syntax_highlighter: coderay
   syntax_highlighter_opts:
    # line_numbers: nil
-    bold_every: 5
+    bold_every: 10
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
