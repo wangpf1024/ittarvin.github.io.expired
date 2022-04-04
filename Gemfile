@@ -54,3 +54,5 @@ gem "jekyll-readme-index", "~> 0.3.0"
 gem "jekyll-titles-from-headings", "~> 0.5.3"
 
 gem "jekyll-relative-links", "~> 0.6.1"
+
+gem "kramdown", "~> 2.3"
