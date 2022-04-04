@@ -21,7 +21,7 @@
 title: Arvin's WiKi
 email: wangpfitta@163.com
 description: >- # this means to ignore newlines until "baseurl:"
-  “若无必要，勿增实体。”（拉丁文是：Non sunt multiplicanda entia sine necessitate）
+  “若无必要，勿增实体。”（Non sunt multiplicanda entia sine necessitate）
 #  "探索者都需要清楚三件事：现在的位置，目标，以及通向目标的道路。".
 #  “世界上只有两样东西是值得我们深深景仰的，一个是我们头上灿烂的星空，一个是我们内心崇高的道德法则。”.
 baseurl: "" # the subpath of your site, e.g. /blog
