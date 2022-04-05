@@ -26,23 +26,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 #  “世界上只有两样东西是值得我们深深景仰的，一个是我们头上灿烂的星空，一个是我们内心崇高的道德法则。”.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
 github_username:  ittarvin
 # Build settings
-#theme: jekyll-theme-simplex
+show_excerpts: false
 theme: minima
-#theme: just-the-docs
-#theme: jekyll-agency
-#theme: monophase
-#theme: jekyll-theme-chirpy
-#markdown: kramdown
+markdown: kramdown
 kramdown:
-  #input: kramdown-parser-gfm
+  input: GFM
   math_engine: mathjax
-  extensions:
-    - autolink
-    - footnotes
-    - smart
   #gfm_quirks: [paragraph_end]
   syntax_highlighter: coderay
   syntax_highlighter_opts:
@@ -52,16 +43,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
-#  - jekyll-remote-theme
+
 
 # remote_theme: ngzhio/jekyll-theme-hamilton
 
@@ -84,8 +66,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-#  The built-in skins include daylight, midnight, sunrise, and sunset
-# skin: sunrise
-# paginate: 5
-# permalink: pretty

@@ -15,7 +15,7 @@ gem "minima", "~> 2.5.1"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.13.0"
+  gem "jekyll-feed", "~> 0.16.0"
   gem "jekyll-seo-tag", "~> 2.6"
 end
 
@@ -36,39 +36,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "kramdown-syntax-coderay", "~> 1.0"
 
 gem "kramdown-parser-gfm", "~> 1.1"
-
-gem "jekyll-coffeescript", "~> 2.0"
-
-gem "jekyll-default-layout", "~> 0.1.5"
-
-gem "jekyll-gist", "~> 1.5"
-
-gem "jekyll-github-metadata", "~> 2.13"
-
-gem "jekyll-optional-front-matter", "~> 0.3.2"
-
-gem "jekyll-paginate", "~> 1.1"
-
-gem "jekyll-readme-index", "~> 0.3.0"
-
-gem "jekyll-titles-from-headings", "~> 0.5.3"
-
-gem "jekyll-relative-links", "~> 0.6.1"
-
-#gem "kramdown", "~> 2.3"
-
-#gem "kramdown-math-katex", "~> 1.0"
-
-#gem "jekyll-theme-hamilton","~> 4.0.0"
-
-#gem "jekyll-remote-theme","~> 0.4.3"
-
-#gem "jekyll-theme-chirpy","~> 5.1.0"
-
-#gem "monophase", "~> 0.1.0"
-
-#gem "jekyll-theme-simplex", "~> 0.9.8"
-
-#gem "jekyll-agency", "~> 1.2"
-
-#gem "just-the-docs", "~> 0.3.3"
