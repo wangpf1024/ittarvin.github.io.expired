@@ -3,7 +3,10 @@ layout: post
 title:  "直接选择排序"
 date:   2022-04-03 17:37:49 +0800
 categories: data/structure
+tags: "数据结构与算法"
 ---
+
+{% include MathJax.html %}
 
 直接选择排序算法的思想：在第 **i** 次选择操作中，通过 **n - i** 次键值比较，从 **n - i + 1** 个记录中选出键值最小的记录，并第  **i （1 <= i <= n -1 ）**个记录交换。
 
@@ -46,3 +49,6 @@ public static void selectSort(int[] R,int n){
 
 }
 ~~~
+
+{% include list_posts.html %}
+{% include list_tags.html %}
