@@ -30,8 +30,8 @@ github_username:  ittarvin
 
 # Build settings
 show_excerpts: true
-page_excerpts: true
-limit_posts: 20
+#page_excerpts: true
+#limit_posts: 20
 
 minima:
   date_format: "%b %-d, %Y"
@@ -43,7 +43,6 @@ kramdown:
   header_offset: 2
   input: GFM
   math_engine: mathjax
-  gfm_quirks: ['$', '$']
   syntax_highlighter: coderay
   syntax_highlighter_opts:
    # line_numbers: nil
@@ -54,8 +53,10 @@ collections_dir: page_collections
 collections:
   posts:
     output: true
-  staff_members:
+  os:
     output: true
+  data_struct:
+      output: true
 
 #Pagination does not work from within Markdown files from your Jekyll site. Pagination works when called from within the HTML file, named index.html,
 #which optionally may reside in and produce pagination from within a subdirectory,

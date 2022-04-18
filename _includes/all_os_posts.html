@@ -1,0 +1,8 @@
+{% for member in site.os %}
+<h4>
+    <a href="{{ member.url }}">
+        {{ member.name }} - {{ member.title }}
+    </a>
+</h4>
+<p>{{ member.content | markdownify }}</p>
+{% endfor %}
