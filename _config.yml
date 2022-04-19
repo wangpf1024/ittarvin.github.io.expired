@@ -35,7 +35,7 @@ show_excerpts: true
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  #skin: dark
   social_links:
     github: ittarvin
 
