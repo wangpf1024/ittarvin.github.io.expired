@@ -19,22 +19,25 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Arvin's WiKi
-email: wangpfitta@163.com
+author:
+  name: Arvin
+  email: wangpfitta@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   “若无必要，勿增实体”（Non sunt multiplicanda entia sine necessitate）
-#  "探索者都需要清楚三件事：现在的位置，目标，以及通向目标的道路。".
-#  “世界上只有两样东西是值得我们深深景仰的，一个是我们头上灿烂的星空，一个是我们内心崇高的道德法则。”.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ittarvin
 
 # Build settings
 show_excerpts: true
-#page_excerpts: true
-#limit_posts: 20
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 minima:
   date_format: "%b %-d, %Y"
+  skin: dark
+  social_links:
+    github: ittarvin
 
 theme: minima
 markdown: kramdown
@@ -64,7 +67,6 @@ collections:
 #paginate: 5
 #paginate_path: "_posts/page:num/"
 
-safe: true
 
 plugins:
   - jekyll-feed
