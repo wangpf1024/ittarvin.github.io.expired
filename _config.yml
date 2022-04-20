@@ -18,31 +18,63 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Arvin's WiKi
-email: wangpfitta@163.com
+title: Arvin's Blog
+author:
+  name: Arvin
+  email: wangpfitta@163.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   “若无必要，勿增实体”（Non sunt multiplicanda entia sine necessitate）
-#  "探索者都需要清楚三件事：现在的位置，目标，以及通向目标的道路。".
-#  “世界上只有两样东西是值得我们深深景仰的，一个是我们头上灿烂的星空，一个是我们内心崇高的道德法则。”.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ittarvin
+
 # Build settings
-show_excerpts: false
+show_excerpts: true
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ #- about.md
+
+minima:
+  date_format: "%b %-d, %Y"
+  #skin: dark
+  social_links:
+    github: ittarvin
+
 theme: minima
 markdown: kramdown
+
 kramdown:
+  header_offset: 2
   input: GFM
   math_engine: mathjax
-  #gfm_quirks: [paragraph_end]
   syntax_highlighter: coderay
   syntax_highlighter_opts:
    # line_numbers: nil
     bold_every: 10
 
+collections_dir: page_collections
+
+collections:
+  posts:
+    output: true
+  os:
+    output: true
+  data_struct:
+      output: true
+
+#Pagination does not work from within Markdown files from your Jekyll site. Pagination works when called from within the HTML file, named index.html,
+#which optionally may reside in and produce pagination from within a subdirectory,
+#via the paginate_path configuration value.
+#paginate: 5
+#paginate_path: "_posts/page:num/"
+
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-avatar
+
 
 
 # remote_theme: ngzhio/jekyll-theme-hamilton
@@ -66,3 +98,19 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+feed:
+  categories:
+    - news
+    - updates
+
+jekyll-archives:
+  # year, month, day, categories, tags
+  enabled: all
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

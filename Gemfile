@@ -35,4 +35,14 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "kramdown-syntax-coderay", "~> 1.0"
 
-gem "kramdown-parser-gfm", "~> 1.1"
+gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
+
+gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
+
+gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-avatar", "~> 0.8.0"
+
+gem "jemoji", "~> 0.12.0"
+
+gem "jekyll-archives", "~> 2.2"
