@@ -1,6 +1,9 @@
 ---
 layout: post
-tags: "CV"
+tags: [CV]
+cover-img: /assets/img/IMG_1615.JPG
+thumbnail-img: /assets/img/IMG_1711.JPG
+share-img: /assets/img/IMG_1482.JPG
 ---
 生活中充满诸多的不确定的事物，唯有通过不断的学习，来对冲掉那些不确定性带来的焦虑。
 
