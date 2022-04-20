@@ -46,3 +46,9 @@ gem "jekyll-avatar", "~> 0.8.0"
 gem "jemoji", "~> 0.12.0"
 
 gem "jekyll-archives", "~> 2.2"
+
+gem "webrick", "~> 1.7"
+
+gem "timezone", "~> 1.3"
+
+gem "jekyll-sitemap", "~> 1.4"
