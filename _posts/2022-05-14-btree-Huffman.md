@@ -40,7 +40,7 @@ share-img: /assets/img/IMG_1482.JPG
 
 图 a 的比较平均比较次数：
 
-SUM =  $N\times0.2 times1+N\times0.3times2+N\times0.25\times3+N\times0.25times3$
+SUM =  $N\times0.2 times1+N\times0.3\times2+N\times0.25\times3+N\times0.25times3$
 
 = $N\times(0.2+0.6+0.75+0.75)$
 
