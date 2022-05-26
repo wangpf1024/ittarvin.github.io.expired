@@ -41,7 +41,7 @@ static BSTree searchBST(BSTree bst,int key){
 
   if(key == bst ->data) return bst;
 
-  else if (key &lt; bst-&gt; data) return searchBST(bst ->lchild, key);
+  else if (key < bst-> data) return searchBST(bst ->lchild, key);
 
   else return searchBST(bst ->rchild, key);
 
