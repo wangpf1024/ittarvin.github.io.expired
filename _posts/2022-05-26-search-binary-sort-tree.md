@@ -3,7 +3,7 @@ layout: post
 subtitle: 《查找》2小节： 二叉排序树（Binary Sort Tree）
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,search]
+tags: [C++,search,bst]
 comments: false
 cover-img: /assets/img/IMG_1414.JPG
 thumbnail-img: /assets/img/二叉排序树.png
