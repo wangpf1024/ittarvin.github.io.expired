@@ -82,6 +82,30 @@ $$
 - 在带权的表结点中可以增加一个权值域，用于存储权值（weight）。
 
 ![图-邻接表-无向图.png](/assets/img/图-邻接表-无向图.png)
+
+算法描述如下：
+
+```cpp
+
+#define vnum 20
+
+typedef struct arcnode{
+    int adjvex;
+    struct arcnode * nextarc;
+}ArcNode;
+
+typedef struct vexnode{
+    int vertex;
+    ArcNode *firstarc;
+}AdjList[vnum];
+
+typedef struct gp{
+    AdjList adjlist;
+    int vexnum,arcnum;
+}Graph;
+
+```
+
 对于有向图，有时需要建立一个逆邻接表，己对每一个顶点$v_i$建立一个以$v_i$为弧头的邻接点的链表，这同邻接表正好相反，对于逆邻接表可以很容易求出$v_i$的入度。
 
 ![图-邻接表-有向图.png](/assets/img/图-邻接表-有向图.png)
