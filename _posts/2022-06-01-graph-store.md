@@ -106,6 +106,50 @@ typedef struct gp{
 
 ```
 
+```cpp
+static void createAdjList(Graph *g,
+                          int n,int e){
+    int i;
+    g -> vexnum = n ;
+    g -> arcnum = e;
+    for (i=0; i<n; i++) {
+        g ->adjlist[i].vertex = i;
+        g ->adjlist[i].firstarc = NULL;
+    }
+}
+
+static void createArcNode(Graph *g,int i,int j){
+    ArcNode *p = (ArcNode*) malloc(sizeof(ArcNode));
+    p -> adjvex = j;
+    p -> nextarc = g -> adjlist[i].firstarc;
+    g -> adjlist[i].firstarc = p;
+}
+
+static Graph initGraph(){
+    
+    
+    Graph *g = (Graph*) malloc(sizeof(gp));
+    
+    createAdjList(g,4,4);
+    
+    createArcNode(g,0,1);
+    createArcNode(g,0,2);
+    
+    createArcNode(g,1,0);
+    createArcNode(g,1,2);
+    
+    createArcNode(g,2,1);
+    createArcNode(g,2,1);
+    createArcNode(g,2,3);
+    
+    createArcNode(g,3,2);
+    
+    
+    return *g;
+    
+}
+```
+
 对于有向图，有时需要建立一个逆邻接表，己对每一个顶点$v_i$建立一个以$v_i$为弧头的邻接点的链表，这同邻接表正好相反，对于逆邻接表可以很容易求出$v_i$的入度。
 
 ![图-邻接表-有向图.png](/assets/img/图-邻接表-有向图.png)
