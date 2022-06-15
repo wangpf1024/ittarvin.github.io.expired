@@ -8,6 +8,8 @@ thumbnail-img: /assets/img/操作系统-特征.png
 share-img: /assets/img/IMG_1482.JPG
 ---
 
+现在操作系统都支持多任务，具有并非，共享，虚拟和异步性特征。
+
 # 操作系统
 
 ![操作系统-特征.png](/assets/img/操作系统-特征.png)
