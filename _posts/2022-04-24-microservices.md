@@ -13,7 +13,7 @@ This is a proof-of-concept application which demonstrates Microservices Architec
 
 # 微服务架构体系
 ## 1.架构图及技术栈
-![微服务架构图.png](/assets/img/微服务架构图.png)
+![微服务架构图.png](/assets/img/微服务架构图.png){: .mx-auto.d-block :}
 
 | 中间件 |
 | --- | 
@@ -28,7 +28,7 @@ This is a proof-of-concept application which demonstrates Microservices Architec
 
 ## 2.微服务介绍
 ### 2.1.项目代码管理目录结构
-![](/assets/img/59145CF4-D2FF-49ff-84F2-3AC4C76695E3.png)
+![](/assets/img/59145CF4-D2FF-49ff-84F2-3AC4C76695E3.png){: .mx-auto.d-block :}
 
 > 项目采用Maven进行项目代码管理。
 
@@ -63,7 +63,7 @@ This is a proof-of-concept application which demonstrates Microservices Architec
 
 ### 4.业务微服务（zjcw-${}-micro-services）
 #### 4.1.微服务应用分层
-![](/assets/img/Spring应用分层.png)
+![](/assets/img/Spring应用分层.png){: .mx-auto.d-block :}
 > **Controler** 业务请求控制层【不包括业务逻辑】
 > **Service**  服务层【与 domain 共同实现业务逻辑，主要担任 domain 层的业务协调工作】
 > **Domain** 层负责关键业务计算
@@ -74,16 +74,16 @@ This is a proof-of-concept application which demonstrates Microservices Architec
 
 ##### 4.2.1.测试覆盖原则
 
-![](/assets/img/测试金字塔.png)
+![](/assets/img/测试金字塔.png){: .mx-auto.d-block :}
 
 - 单元测试（UT）
-  ![](/assets/img/单元测试.png)
+  ![](/assets/img/单元测试.png){: .mx-auto.d-block :}
 > 使用技术：Junit，Spring Mock MVC，[Mpckito](https://site.mockito.org)
 - 集成测试（IT）
-  ![](/assets/img/集成测试.png)
+  ![](/assets/img/集成测试.png){: .mx-auto.d-block :}
 > 主要针对外部依赖进行测试。
 - 组件测试（CT）
-  ![](/assets/img/组件测试.png)
+  ![](/assets/img/组件测试.png){: .mx-auto.d-block :}
 >  内部 Mock **AND** 外部 Mock
 >  内部：Spring MockBean，外部工具 [WireMock](http://wiremock.org)
 >  外部： [hoverfly](https://hoverfly.io)
