@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [CV]
+tags: [welcome]
 cover-img: /assets/img/IMG_1615.JPG
 thumbnail-img: /assets/img/pexels-element-digital-1051075.jpg
 share-img: /assets/img/IMG_1482.JPG

@@ -3,7 +3,7 @@ layout: post
 subtitle: Spring Boot with Spring Cloud
 gh-repo: ittarvin/micro-services
 gh-badge: [star, fork, follow]
-tags: [Spring Cloud]
+tags: [架构]
 comments: true
 cover-img: /assets/img/IMG_1615.JPG
 thumbnail-img: /assets/img/Spring应用分层.png

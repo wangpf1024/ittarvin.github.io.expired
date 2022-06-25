@@ -3,7 +3,7 @@ layout: post
 subtitle: 《树与二叉树》5小节：哈夫曼（Huffman）树
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,tree，huffman]
+tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1615.JPG
 thumbnail-img: /assets/img/哈夫曼树的构建方法.png

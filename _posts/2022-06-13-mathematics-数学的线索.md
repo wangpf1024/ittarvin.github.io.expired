@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: 《数学通识》1小节： 数学的线索
-tags: [math]
+tags: [数学]
 comments: false
 cover-img: /assets/img/IMG_1993.JPG
 thumbnail-img: /assets/img/IMG_0515.JPG

@@ -3,7 +3,7 @@ layout: post
 subtitle: 《Graph》2小节： 邻接矩阵，邻接表
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,graph]
+tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1573.JPG
 thumbnail-img: /assets/img/图-邻接表-有向图.png

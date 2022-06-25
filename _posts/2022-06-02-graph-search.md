@@ -3,7 +3,7 @@ layout: post
 subtitle: 《Graph》3小节： 深度优先搜索，广度优先搜索
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,graph,search]
+tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1573.JPG
 thumbnail-img: /assets/img/图-深度优先搜索.png

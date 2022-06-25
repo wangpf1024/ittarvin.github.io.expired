@@ -3,7 +3,7 @@ layout: post
 subtitle: 《树与二叉树》4小节：二叉树的存储
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,tree,Btree]
+tags: [数据结构]
 comments: true
 cover-img: /assets/img/IMG_1615.JPG
 thumbnail-img: /assets/img/孩子链表表示法.png
