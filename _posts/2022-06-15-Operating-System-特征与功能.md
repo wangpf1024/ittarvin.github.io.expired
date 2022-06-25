@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: 《操作系统》2小节： 操作系统的特征与功能
-tags: [os]
+tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG
 thumbnail-img: /assets/img/操作系统-特征.png

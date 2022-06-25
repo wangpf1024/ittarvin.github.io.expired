@@ -3,7 +3,7 @@ layout: post
 subtitle: 《树与二叉树》1小节：基本概念
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,Btree]
+tags: [数据结构]
 comments: true
 cover-img: /assets/img/IMG_1615.JPG
 thumbnail-img: /assets/img/非完全二叉树的顺序存储.png

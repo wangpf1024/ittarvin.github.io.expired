@@ -3,7 +3,7 @@ layout: post
 subtitle: 《查找》3小节： 散列表
 gh-repo: ittarvin/c_ff
 gh-badge: [star, fork, follow]
-tags: [C++,search,hash]
+tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1414.JPG
 thumbnail-img: /assets/img/散列表-数字分析法.png
