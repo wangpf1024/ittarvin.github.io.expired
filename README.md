@@ -1,3 +1,3 @@
 # Arvin's Wiki
 
-> By [Arvin](https://wiki.ittarvin.cn) &middot;
+> By [Arvin](https://www.tangsan.wiki) &middot;
