@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1414.JPG
-thumbnail-img: /assets/img/散列表-数字分析法.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 

@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1615.JPG
-thumbnail-img: /assets/img/哈夫曼树的构建方法.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 文中梳理了丛分类树到Huffman树的相关理论与代码实践。

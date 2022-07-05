@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1414.JPG
-thumbnail-img: /assets/img/二叉排序树.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 静态查找表一旦生成之后，所含数据元素（在检索阶段）是固定不变的。二叉排序树是一种实现动态查找的树表，这种树表的结构本身是在查找过程中动态生成的，即对于给定的 key 值，若表中存在与 key 值相等元素则查找成功，不然 ，插入关键字不等于 key 的元素。

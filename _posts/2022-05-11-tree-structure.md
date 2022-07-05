@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: true
 cover-img: /assets/img/IMG_1615.JPG
-thumbnail-img: /assets/img/孩子链表表示法.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 文中梳理了树的存储结构中的孩子链表表示法，孩子兄弟链表表示法和双亲表示法与代码实践。
