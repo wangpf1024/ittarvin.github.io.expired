@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1414.JPG
-thumbnail-img: /assets/img/快速排序.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 不同的目的，对边际成本的看法是不一样的。因此，在现实工作中，没有绝对的最好，只有在给定条件下相对比较好。

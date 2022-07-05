@@ -4,7 +4,7 @@ subtitle: 《操作系统》1小节： 操作系统发展阶段
 tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG
-thumbnail-img: /assets/img/操作系统发展.png
+thumbnail-img: /assets/img/操作系统概论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 操作系统（Operating System，OS）是一种复杂的系统软件，是不同程序代码，数据结构，数据初始化文件的结集合，可执行。

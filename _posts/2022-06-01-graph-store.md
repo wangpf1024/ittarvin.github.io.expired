@@ -6,7 +6,7 @@ gh-badge: [star, fork, follow]
 tags: [数据结构]
 comments: false
 cover-img: /assets/img/IMG_1573.JPG
-thumbnail-img: /assets/img/图-邻接表-有向图.png
+thumbnail-img: /assets/img/数据结构导论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 与邻接矩阵能方便的对顶点进行随机访问不同，在邻接表中要判断任意两个顶点 $v_i$ 和 $v_j$ 直接是否相连，需要遍历第i个或第j个单链表。
