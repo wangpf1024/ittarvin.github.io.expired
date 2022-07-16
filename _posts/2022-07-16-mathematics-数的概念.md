@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: 《数学通识》1小节： 数学的概念
+subtitle: 《数学通识》2小节： 数学的概念
 tags: [数学]
 comments: false
 cover-img: /assets/img/IMG_1993.JPG
