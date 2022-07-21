@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: 《操作系统》8小节： 系统调用，一般函数
+subtitle: 《操作系统》9小节： 系统调用，一般函数
 tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG
