@@ -8,6 +8,8 @@ thumbnail-img: /assets/img/数学通识-向量计算.png
 share-img: /assets/img/IMG_1482.JPG
 ---
 
+培养以动态视角看世界的能力，批量处理问题的能力，并且理解因果关系的本质。
+
 # 数学通识
 ## 代数学
 

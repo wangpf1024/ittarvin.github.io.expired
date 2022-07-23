@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: 《操作系统》 10小节： 进程同步经典的问题，生产者-消费者问题和读者-写者问题。
+subtitle: 《操作系统》 10小节： 进程同步经典的问题
 tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG
@@ -8,7 +8,7 @@ thumbnail-img: /assets/img/操作系统概论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
 
-生产者-消费者问题是相互合作关系的一种抽象。
+生产者-消费者问题和读者-写者问题。
 
 # 操作系统
 
