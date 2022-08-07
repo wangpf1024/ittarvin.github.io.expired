@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: 《操作系统》 11小节： 进程调度-选择调度方式和算法的若干准则
+subtitle: 《操作系统》 11小节：选择调度方式和算法的若干准则
 tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG

@@ -1,15 +1,13 @@
 ---
 layout: post
-subtitle: 《操作系统》 12小节： 进程调度-调度算法
+subtitle: 《操作系统》 12小节： 先来先服务调度算法（FCFS）,短进程优先调度算法（SPF）,优先权调度算法（Priority-Scheduling Lgorithm）
 tags: [操作系统]
 comments: false
 cover-img: /assets/img/IMG_1753.JPG
 thumbnail-img: /assets/img/操作系统概论.jpeg
 share-img: /assets/img/IMG_1482.JPG
 ---
-
-进程调度算法是指从就绪态进程中选择一个或几个进程为其分配CPU，使其进入执行态算法。
-不同的调度算法有不同的特点，为了根据特殊应用领域的要求选择合适的调度算法可依[《选择调度方式和算法的若干准则》](../2022-08-06-Operation-System-进程-调度)作为选择依据。
+进程调度算法是指从就绪态进程中选择一个或几个进程为其分配CPU，使其进入执行态算法。不同的调度算法有不同的特点，为了根据特殊应用领域的要求选择合适的调度算法可依[《选择调度方式和算法的若干准则》](../2022-08-06-Operation-System-进程-调度)作为选择依据。
 
 # 操作系统
 
@@ -96,7 +94,7 @@ W = \frac{1}{n} \bigl[ \sum_{i=1}^n \frac{T_i}{T_s}\bigr]
 $$
 
 
-### 优先权调度算法
+### 优先权调度算法(Priority-Scheduling Lgorithm)
 
 #### 调度算法
 
