@@ -26,13 +26,13 @@ share-img: /assets/img/IMG_1482.JPG
 
 典型代表：UNIX，MS-DOS，Linux，Mac oS X 和 BSD
 
-![操作系统-单体结构.png](/assets/img/操作系统-单体结构.png){: .mx-auto.d-block :}
+![操作系统-单体结构.png](../assets/img/操作系统-单体结构.png){: .mx-auto.d-block :}
 
 ### 层次结构模型
 层级结构的基本思想是将操作系统分解为多个小的，容易理解的层，系统功能被隔离到不同的层中，每一层都提供对系统功能的部分抽象，然后采用单向调用顺序，形成一串彼此连续的对系统功能的抽象串，最终形成对整改系统的完整抽象。这样组织的好处是方便了操作系统实现，调试，测试。“分层” 结构使操作系统中的个模块之间的组织和依赖关系清晰明了。系统的可读性，可靠性，可移植性，都得到了增强。请问题是如果分层力度越小，性能越差。
 
 典型代表：THE
-![操作系统-层次结构.png](/assets/img/操作系统-层次结构.png){: .mx-auto.d-block :}
+![操作系统-层次结构.png](../assets/img/操作系统-层次结构.png){: .mx-auto.d-block :}
 
 
 ### 客户/服务器模型与微内核结构
@@ -41,7 +41,7 @@ share-img: /assets/img/IMG_1482.JPG
 
 典型代表：Window NT，COS-IX V2.3（中国），WinRiver，Vxworks。
 
-![操作系统-微内核.png](/assets/img/操作系统-微内核.png){: .mx-auto.d-block :}
+![操作系统-微内核.png](../assets/img/操作系统-微内核.png){: .mx-auto.d-block :}
 
 灵活性：
 > 只要接口规范，操作系统可以方便的增加和删除服务功能。

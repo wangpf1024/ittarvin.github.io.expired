@@ -22,7 +22,7 @@ share-img: /assets/img/IMG_1482.JPG
 
 三者的转换
 
-![操作系统-进程状态.png](/assets/img/操作系统-进程状态.png){: .mx-auto.d-block :}
+![操作系统-进程状态.png](../assets/img/操作系统-进程状态.png){: .mx-auto.d-block :}
 
 新创建的进程的状态一般被设置为就绪态，当操作系统为就绪态的进程分配CPU是，
 进程开始在CPU上运行，进程的状态就由就绪态变为执行态。
@@ -37,15 +37,15 @@ share-img: /assets/img/IMG_1482.JPG
 1. 链接方式
 把系统中具有相同状态的进程的进程的控制块用其中的链接字链接成一个队列。
 
-![操作系统-进程组织-链接.png](/assets/img/操作系统-进程组织-链接.png){: .mx-auto.d-block :}
+![操作系统-进程组织-链接.png](../assets/img/操作系统-进程组织-链接.png){: .mx-auto.d-block :}
 2. 索引方式
 系统根据所有进程的状态，建立几张索引表，索引表的每一个表项指向一个PCB的物理块。
 
-![操作系统-进程组织-索引表.png](/assets/img/操作系统-进程组织-索引表.png){: .mx-auto.d-block :}
+![操作系统-进程组织-索引表.png](../assets/img/操作系统-进程组织-索引表.png){: .mx-auto.d-block :}
 3. 进程队列
 把进程控制块用对了组织起来， 形成进程队列。把具有相同状态的进程放入同一个队列中，就有不同状态的进程形成了不同的进程队列。（就绪队列，阻塞队列）。
 
-![操作系统-进程组织-队列.png](/assets/img/操作系统-进程组织-队列.png){: .mx-auto.d-block :}
+![操作系统-进程组织-队列.png](../assets/img/操作系统-进程组织-队列.png){: .mx-auto.d-block :}
 
 ##  进程控制
 
@@ -78,7 +78,7 @@ share-img: /assets/img/IMG_1482.JPG
 3. 初始化PCB。
 4. 将新进程插入就绪队列。
 
-![操作系统-进程控制-创建.png](/assets/img/操作系统-进程控制-创建.png)
+![Image not found: /assets/img/操作系统-进程控制-创建.png](../assets/img/操作系统-进程控制-创建.png "Image not found: /assets/img/操作系统-进程控制-创建.png")
 
 
 ### 进程的阻塞
@@ -100,7 +100,7 @@ share-img: /assets/img/IMG_1482.JPG
 2. 将进程插入相应的阻塞队列中。
 3. 转进程调度程序，从就绪队列中选择进程为其分配CPU。    
 
-![操作系统-进程控制-阻塞.png](/assets/img/操作系统-进程控制-阻塞.png)
+![操作系统-进程控制-阻塞.png](../assets/img/操作系统-进程控制-阻塞.png)
 
 ### 进程的唤醒
 进程的唤醒过程如下：
@@ -108,7 +108,7 @@ share-img: /assets/img/IMG_1482.JPG
 2. 将进程状态由阻塞态改为就绪态。
 3. 将进程插入就绪队列。
 
-![操作系统-进程控制-唤醒.png](/assets/img/操作系统-进程控制-唤醒.png)
+![操作系统-进程控制-唤醒.png](../assets/img/操作系统-进程控制-唤醒.png)
 
 
 ### 进程的终止
@@ -129,4 +129,4 @@ share-img: /assets/img/IMG_1482.JPG
 4. 释放资源。
 5. 将终止进程的PCB移除。
 
-![操作系统-进程控制-终止.png](/assets/img/操作系统-进程控制-终止.png)
+![操作系统-进程控制-终止.png](../assets/img/操作系统-进程控制-终止.png)

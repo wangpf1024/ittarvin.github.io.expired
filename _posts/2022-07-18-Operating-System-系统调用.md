@@ -42,7 +42,7 @@ Main(){
 ```
 当执行求绝对值的函数调用时，程序执行的控制流只需要转移到求决定值的入口处，如果下图所示就是跳转到地址为 100 的内存单元开始执行一段求绝对值的子程序。在函数的调用前后，进程都处于用户态，请求绝对值的函数和用户程序一样处于用户空间。
 
-![操作系统-系统调用-一般函数.png](/assets/img/操作系统-系统调用-一般函数.png){: .mx-auto.d-block :}
+![Image not found: /assets/img/操作系统-系统调用-一般函数.png](../assets/img/操作系统-系统调用-一般函数.png){: .mx-auto.d-block :}
 
 ### 系统调用的执行过程实例
 
@@ -54,7 +54,7 @@ Main(){
     printf("%d",i)
 }
 ```
-![操作系统-系统调用.png](/assets/img/操作系统-系统调用.png){: .mx-auto.d-block :}
+![操作系统-系统调用.png](../assets/img/操作系统-系统调用.png){: .mx-auto.d-block :}
 为了把系统调用号与相应的系统调用实现程序关联起来，Linux 内核利用一个系统调用分配表（Dispatch Tabl;e）。这个表存放在 system_call 数组中，有NR_syscalls 个表项（linux 2.6.11 内核的这个值是 289）。系统调用分派表的第n个表项包括系统调用号为 n 的系统调用实现程序的地址。
 getpid() 对应的系统调用号是 _NR_getpid ，所以在系统调用分派表的第  _NR_getpid 个表项中存在 sys_getpid 程序的起始地址。
 

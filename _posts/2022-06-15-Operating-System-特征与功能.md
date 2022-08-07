@@ -12,7 +12,7 @@ share-img: /assets/img/IMG_1482.JPG
 
 # 操作系统
 
-![操作系统-特征.png](/assets/img/操作系统-特征.png){: .mx-auto.d-block :}
+![操作系统-特征.png](../assets/img/操作系统-特征.png){: .mx-auto.d-block :}
 
 ##  特征与功能
 
@@ -29,7 +29,7 @@ share-img: /assets/img/IMG_1482.JPG
 
 ### 功能
 
-![操作系统-功能.png](/assets/img/操作系统-功能.png){: .mx-auto.d-block :}
+![操作系统-功能.png](../assets/img/操作系统-功能.png){: .mx-auto.d-block :}
 
 #### 内存管理
 
