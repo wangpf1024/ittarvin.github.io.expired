@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: 你好,三哥
+title: 鲁米的博客
 
 # Your name to show in the footer
-author: 唐三
+author: 鲁米
 
 # --- List of links in the navigation bar --- #
 
@@ -24,7 +24,7 @@ author: 唐三
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/IMG_4782.JPG"
+avatar: "/assets/img/arvin.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
